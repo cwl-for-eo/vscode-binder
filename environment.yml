@@ -1,0 +1,20 @@
+channels:
+  - conda-forge
+  - terradue
+dependencies:
+  - numpy
+  - jupyter-server-proxy
+  - code-server >=3.2
+  - awscli
+  - cwltool
+  - pystac
+  - gdal
+  - stars
+  - mamba 
+  - pip
+  - yq
+  - jq
+  - awscli
+  - pip:
+    - rio_color
+    - snuggs
