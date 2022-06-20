@@ -14,5 +14,7 @@ dependencies:
   - jq
   - awscli
   - gdal
+  - click 
+  - pystac
   - pip:
     - nbgitpuller
