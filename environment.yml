@@ -2,6 +2,7 @@ channels:
   - conda-forge
   - terradue
 dependencies:
+  - python=3.8
   - numpy
   - jupyter-server-proxy
   - code-server >=3.2
