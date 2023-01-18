@@ -19,6 +19,6 @@ dependencies:
   - pystac
   - localtileserver
   - nodejs
-  - ipyleaflet
   - pip:
     - nbgitpuller
+    - leafmap
