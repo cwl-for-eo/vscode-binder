@@ -16,5 +16,7 @@ dependencies:
   - gdal
   - click 
   - pystac
+  - localtileserver
+  - nodejs
   - pip:
     - nbgitpuller
