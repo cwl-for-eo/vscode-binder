@@ -3,7 +3,7 @@
 # Enable the proxy extension in notebook and lab
 jupyter serverextension enable --py jupyter_server_proxy
 jupyter labextension install @jupyterlab/server-proxy
-jupyter lab build
+jupyter lab build --dev-build=False --minimize=False
 
 code-server --install-extension ms-python.python 
 code-server --install-extension redhat.vscode-yaml
